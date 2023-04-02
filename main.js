@@ -1,6 +1,6 @@
 //  01. Write a program that prints the numbers from 1 to 100, but for multiples of three print "Fizz" instead of the number and for multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
 
-"Solution: 01";
+("Solution: 01");
 
 for (let i = 1; i <= 100; i++) {
   const fizz = i % 3 === 0 ? "Fizz" : "";
@@ -20,7 +20,6 @@ for (let i = 0; i < myArray.length; i++) {
     sum += myArray[i];
   }
 }
-
 console.log(sum);
 
 // 03. Write a program that takes an array of integers and returns the average of all the numbers in the array.
